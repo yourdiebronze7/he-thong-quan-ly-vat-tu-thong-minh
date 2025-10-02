@@ -1,7 +1,7 @@
 const express = require('express');
 const itemRoutes = require('./routes/itemRoutes');
 const app = express();
-const port = 3000;
+const port = 4000;
 
 app.use(express.json());
 app.use('/api/items', itemRoutes);
