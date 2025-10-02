@@ -7,5 +7,5 @@ app.use(express.json());
 app.use('/api/items', itemRoutes);
 
 app.listen(port, () => {
-  console.log(`Server is running on http://localhost:${port}`);
+  console.log(`Server is running on http://localhost:${port} at ${new Date().toISOString()}`);
 });
