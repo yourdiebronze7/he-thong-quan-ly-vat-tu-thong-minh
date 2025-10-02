@@ -1,0 +1,16 @@
+{
+  "name": "he-thong-quan-ly-vat-tu-thong-minh",
+  "version": "1.0.0",
+  "description": "Hệ thống quản lý vật tư thông minh",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "web3": "^1.6.1"
+  }
+}
