@@ -1,6 +1,6 @@
 {
   "name": "he-thong-quan-ly-vat-tu-thong-minh",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Hệ thống quản lý vật tư thông minh",
   "main": "index.js",
   "scripts": {
