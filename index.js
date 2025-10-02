@@ -5,9 +5,9 @@ const port = 3000;
 app.use(express.json());
 
 app.get('/', (req, res) => {
-  res.send('Hệ thống quản lý vật tư thông minh đang hoạt động!');
+  res.send('The intelligent inventory management system is running!');
 });
 
 app.listen(port, () => {
-  console.log(`Server chạy trên http://localhost:${port}`);
+  console.log(`Server running at http://localhost:${port}`);
 });
