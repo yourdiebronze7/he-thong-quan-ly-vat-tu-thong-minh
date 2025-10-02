@@ -12,4 +12,4 @@ app.listen(port, () => {
   console.log(`Server running at http://localhost:${port}`);
 });
 
-console.log('Express server initialized.');
+console.log('Express server has been successfully initialized and is ready to handle requests.');
